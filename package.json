@@ -33,7 +33,7 @@
   "devDependencies": {
     "coffeeify": "^3.0.1",
     "coffeescript": "<3.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-browserify": "^0.5.1",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^5.7.0",
