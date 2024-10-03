@@ -27,7 +27,7 @@ var paths = {
     './src/html/podigee-podcast-player-direct.html',
   ],
   images: ['./src/images/**'],
-  fonts: ['./src/fonts/**', './vendor/fonts/**'],
+  fonts: ['./src/fonts/**'],
   themes: {
     html: ['./src/themes/**/index.html'],
     css: ['./src/themes/**/index.scss'],
