@@ -55,7 +55,7 @@
     "yarn": ">=1.22.4"
   },
   "dependencies": {
-    "@mapbox/node-pre-gyp": "^2.0.0",
+    "@mapbox/node-pre-gyp": "^2.0.3",
     "elasticlunr": "^0.9.5",
     "jquery": "^3.7.1",
     "lodash": "^4.17.21",
