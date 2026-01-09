@@ -44,7 +44,7 @@ The player is either configured via a JavaScript object present in the same HTML
       "title": "Episode 2 title",
       "subtitle": "Episode 2 subtitle",
       "url": "http://example.com/episode-2",
-      "embedCode": "<script class=\"podigee-podcast-player\" src=\"https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js\" data-configuration=\"https://example.com/episode-2.json\"><\/script>",
+      "embedCode": "<script class=\"podigee-podcast-player\" src=\"https://main.podigee-cdn.net/podcast-player/javascripts/podigee-podcast-player.js\" data-configuration=\"https://example.com/episode-2.json\"><\/script>",
       "description": "Episode 2 description",
       "chaptermarks": [
         {"start": "00:00:00", "title": "First chapter"},
@@ -67,7 +67,7 @@ The player is either configured via a JavaScript object present in the same HTML
     "title": "Episode title",
     "subtitle": "Episode subtitle",
     "url": "http://example.com/episode-1",
-    "embedCode": "<script class=\"podigee-podcast-player\" src=\"https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js\" data-configuration=\"https://example.com/episode-1.json\"><\/script>",
+    "embedCode": "<script class=\"podigee-podcast-player\" src=\"https://main.podigee-cdn.net/podcast-player/javascripts/podigee-podcast-player.js\" data-configuration=\"https://example.com/episode-1.json\"><\/script>",
     "description": "Episode description",
     "chaptermarks": [
       {"start": "00:00:00", "title": "First chapter"},

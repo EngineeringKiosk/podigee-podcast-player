@@ -1,7 +1,7 @@
 {
   "options": {
     "theme": "game-of-thrones",
-    "sslProxy": "https://cdn.podigee.com/ssl-proxy/",
+    "sslProxy": "https://main.podigee-cdn.net/ssl-proxy/",
     "startPanels": ["Share", "Playlist", "EpisodeInfo"]
   },
   "extensions": {
