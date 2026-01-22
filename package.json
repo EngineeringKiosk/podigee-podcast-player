@@ -58,7 +58,7 @@
     "@mapbox/node-pre-gyp": "^2.0.3",
     "elasticlunr": "^0.9.5",
     "jquery": "^3.7.1",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "rivets": "^0.9.6",
     "sightglass": "^0.2.6",
     "tinycolor2": "^1.6.0",
