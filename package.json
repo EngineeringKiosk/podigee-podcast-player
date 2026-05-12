@@ -33,6 +33,7 @@
   "devDependencies": {
     "coffeeify": "3.0.1",
     "coffeescript": "2.7.0",
+    "esprima-fb": "15001.1001.0-dev-harmony-fb",
     "gulp": "5.0.1",
     "gulp-browserify": "0.5.1",
     "gulp-concat": "2.6.1",
@@ -46,12 +47,10 @@
     "gulp-watch": "5.0.1",
     "sass": "1.99.0",
     "source-map": "0.7.6",
-    "urijs": "1.19.11",
-    "esprima-fb": "15001.1001.0-dev-harmony-fb"
+    "urijs": "1.19.11"
   },
   "engines": {
-    "node": ">=13.13.0",
-    "yarn": ">=1.22.4"
+    "node": ">=18.12.0"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^2.0.3",
@@ -62,5 +61,6 @@
     "sightglass": "^0.2.6",
     "tinycolor2": "^1.6.0",
     "vtt.js": "^0.13.0"
-  }
+  },
+  "packageManager": "yarn@4.14.1"
 }
