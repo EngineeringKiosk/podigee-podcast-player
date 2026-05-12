@@ -1,5 +1,5 @@
 @use 'sass:color';
-@import 'variables';
+@use 'variables';
 
 .podcast-player {
   &, *, *:before, *:after {
@@ -9,7 +9,7 @@
   }
 
   background: linear-gradient(to bottom, rgb(84, 84, 84) 0%, rgb(38, 38, 38) 100%);
-  color: $default-color;
+  color: variables.$default-color;
   font-family: Helvetica, Arial, sans-serif;
   min-width: 100%;
   overflow: hidden;
@@ -17,11 +17,11 @@
   width: 1px;
 
   a {
-    color: $default-color;
+    color: variables.$default-color;
     text-decoration: none;
 
     &:hover {
-      color: $highlight2;
+      color: variables.$highlight2;
       text-decoration: underline;
     }
   }
@@ -38,9 +38,9 @@
     height: 90px;
 
     .play-button {
-      border: 3px solid $light-grey;
+      border: 3px solid variables.$light-grey;
       border-radius: 100px;
-      color: $dark-grey;
+      color: variables.$dark-grey;
       font-size: 56px;
       height: 70px;
       margin: 10px 0 0 10px;
@@ -48,8 +48,8 @@
       width: 70px;
 
       &:hover {
-        color: $default-color;
-        border-color: $default-color;;
+        color: variables.$default-color;
+        border-color: variables.$default-color;;
       }
     }
 
@@ -60,12 +60,12 @@
       top: 66px;
 
       button {
-        color: $dark-grey;
+        color: variables.$dark-grey;
         font-size: 14px;
       }
 
       button:hover {
-        color: $highlight1;
+        color: variables.$highlight1;
       }
 
       .speed-toggle {
@@ -83,7 +83,7 @@
   .episode-basic-info {
     float: left;
     max-height: 90px;
-    padding: 5px $default-padding 0;
+    padding: 5px variables.$default-padding 0;
     position: relative;
     overflow: hidden;
     width: calc(100% - 170px);
@@ -114,7 +114,7 @@
     padding: 0 5px;
 
     .progress-bar-time-played {
-      color: $dark-grey;
+      color: variables.$dark-grey;
       cursor: pointer;
       float: left;
       font-size: 12px;
@@ -124,11 +124,11 @@
     }
 
     .progress-bar-time-played:hover {
-      color: $default-color;
+      color: variables.$default-color;
     }
 
     .progress-bar-rail {
-      background-color: $light-grey;
+      background-color: variables.$light-grey;
       cursor: ew-resize;
       min-height: 10px;
       overflow: hidden;
@@ -139,7 +139,7 @@
 
   .progress-bar-played,
   .progress-bar-loaded {
-    background-color: $highlight2;
+    background-color: variables.$highlight2;
     display: block;
     height: 100%;
     position: absolute;
@@ -148,7 +148,7 @@
   }
 
   .progress-bar-loaded {
-    background-color: $dark-grey;
+    background-color: variables.$dark-grey;
   }
 
   .progress-bar-buffering {
@@ -191,7 +191,7 @@
     top: 68px;
 
     button {
-      color: $dark-grey;
+      color: variables.$dark-grey;
       display: inline-block;
       font-size: 16px;
       text-align: center;
@@ -200,7 +200,7 @@
 
     button:hover,
     button.button-active {
-      color: $default-color;
+      color: variables.$default-color;
     }
 
     img {
@@ -209,7 +209,7 @@
   }
 
   .panels {
-    color: $default-color;
+    color: variables.$default-color;
     font-size: 14px;
     font-weight: 300;
     height: 400px;
@@ -218,7 +218,7 @@
     & > div {
       height: 100%;
       overflow: hidden;
-      padding: 0 0 0 $default-padding;
+      padding: 0 0 0 variables.$default-padding;
       position: relative;
     }
 
@@ -246,17 +246,17 @@
           position: relative;
 
           & + li {
-            border-top: 1px solid $light-grey;
+            border-top: 1px solid variables.$light-grey;
           }
 
           &:hover {
-            background-color: $light-grey;
-            color: $background-color;
+            background-color: variables.$light-grey;
+            color: variables.$background-color;
           }
 
           &.active {
-            background-color: color.adjust($highlight2, $lightness: 55%);
-            color: $background-color;
+            background-color: color.adjust(variables.$highlight2, $lightness: 55%);
+            color: variables.$background-color;
           }
 
           img {
@@ -281,7 +281,7 @@
           }
 
           a {
-            color: $highlight2;
+            color: variables.$highlight2;
             font-size: 16px;
             right: 5px;
             position: absolute;
@@ -326,7 +326,7 @@
         background: transparent;
         border: 1px solid #ccc;
         border-radius: 3px;
-        color: $default-color;
+        color: variables.$default-color;
         font-size: 20px;
         outline: none;
         padding: 4px;
@@ -351,8 +351,8 @@
 
           &:hover > *,
           &.active > * {
-            background-color: $transcript-highlight;
-            color: $background-color;
+            background-color: variables.$transcript-highlight;
+            color: variables.$background-color;
           }
         }
       }

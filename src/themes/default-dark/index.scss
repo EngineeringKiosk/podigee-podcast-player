@@ -1,5 +1,14 @@
-@import 'variables';
-@import '../default/index';
+@use 'variables' as dark-vars;
+@use '../default/index' with (
+  $default-padding: dark-vars.$default-padding,
+  $background-color: dark-vars.$background-color,
+  $default-color: dark-vars.$default-color,
+  $light-grey: dark-vars.$light-grey,
+  $dark-grey: dark-vars.$dark-grey,
+  $highlight1: dark-vars.$highlight1,
+  $highlight2: dark-vars.$highlight2,
+  $transcript-highlight: dark-vars.$transcript-highlight
+);
 
 .podcast-player {
   .panels {
@@ -7,18 +16,18 @@
     .chaptermarks ul li:hover,
     .playlist ul li.active,
     .playlist ul li:hover {
-      color: $background-color;
+      color: dark-vars.$background-color;
     }
 
     .share .share-copy-url {
-      color: $default-color;
+      color: dark-vars.$default-color;
     }
 
     .transcript .transcript-text li {
       &:hover > *,
       &.active > *,
       &.search-highlight > * {
-        color: $background-color;
+        color: dark-vars.$background-color;
       }
     }
   }

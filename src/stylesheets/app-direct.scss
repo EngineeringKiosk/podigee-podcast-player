@@ -1,3 +1,9 @@
+@use 'iconfont';
+@use 'buttons';
+@use 'social_links';
+@use 'downloads';
+@use 'transcript_search';
+
 *,
 *:before,
 *:after {
@@ -5,9 +11,3 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-@import 'iconfont';
-@import 'buttons';
-@import 'social_links';
-@import 'downloads';
-@import 'transcript_search';
