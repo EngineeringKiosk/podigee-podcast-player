@@ -1,34 +1,10 @@
-$icomoon-font-path: "../fonts" !default;
-
-$icon-cast: "\e307";
-$icon-close: "\e5cd";
-$icon-download: "\e2c0";
-$icon-chaptermarks: "\e431";
-$icon-error_outline: "\e001";
-$icon-transcript: "\e236";
-$icon-forward_30: "\e057";
-$icon-episode-info: "\e88f";
-$icon-keyboard_arrow_left: "\e314";
-$icon-keyboard_arrow_right: "\e315";
-$icon-playlist: "\e896";
-$icon-mail_outline: "\e0e1";
-$icon-pause: "\e034";
-$icon-play: "\e037";
-$icon-backward_10: "\e059";
-$icon-share: "\e80d";
-$icon-skip_next: "\e044";
-$icon-skip_previous: "\e045";
-$icon-twitter: "\f099";
-$icon-facebook: "\f09a";
-$icon-facebook-f: "\f09a";
-$icon-google-plus: "\f0d5";
-$icon-whatsapp: "\f232";
+@use 'icon-vars';
 
 @font-face {
   font-family: 'podigee-podcast-player';
-  src: url('#{$icomoon-font-path}/podigee-podcast-player.ttf?kq1u8x') format('truetype'),
-    url('#{$icomoon-font-path}/podigee-podcast-player.woff?kq1u8x') format('woff'),
-    url('#{$icomoon-font-path}/podigee-podcast-player.svg?kq1u8x#podigee-podcast-player') format('svg');
+  src: url('#{icon-vars.$icomoon-font-path}/podigee-podcast-player.ttf?kq1u8x') format('truetype'),
+    url('#{icon-vars.$icomoon-font-path}/podigee-podcast-player.woff?kq1u8x') format('woff'),
+    url('#{icon-vars.$icomoon-font-path}/podigee-podcast-player.svg?kq1u8x#podigee-podcast-player') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -50,116 +26,116 @@ $icon-whatsapp: "\f232";
 
 .icon-cast {
   &:before {
-    content: $icon-cast;
+    content: icon-vars.$icon-cast;
   }
 }
 .icon-close {
   &:before {
-    content: $icon-close;
+    content: icon-vars.$icon-close;
   }
 }
 .icon-download {
   &:before {
-    content: $icon-download;
+    content: icon-vars.$icon-download;
   }
 }
 .icon-chaptermarks {
   &:before {
-    content: $icon-chaptermarks;
+    content: icon-vars.$icon-chaptermarks;
   }
 }
 .icon-error_outline {
   &:before {
-    content: $icon-error_outline;
+    content: icon-vars.$icon-error_outline;
   }
 }
 .icon-transcript {
   &:before {
-    content: $icon-transcript;
+    content: icon-vars.$icon-transcript;
   }
 }
 .icon-forward-30 {
   &:before {
-    content: $icon-forward_30;
+    content: icon-vars.$icon-forward_30;
   }
 }
 .icon-episode-info {
   &:before {
-    content: $icon-episode-info;
+    content: icon-vars.$icon-episode-info;
   }
 }
 .icon-keyboard_arrow_left {
   &:before {
-    content: $icon-keyboard_arrow_left;
+    content: icon-vars.$icon-keyboard_arrow_left;
   }
 }
 .icon-keyboard_arrow_right {
   &:before {
-    content: $icon-keyboard_arrow_right;
+    content: icon-vars.$icon-keyboard_arrow_right;
   }
 }
 .icon-playlist {
   &:before {
-    content: $icon-playlist;
+    content: icon-vars.$icon-playlist;
   }
 }
 .icon-mail_outline {
   &:before {
-    content: $icon-mail_outline;
+    content: icon-vars.$icon-mail_outline;
   }
 }
 .icon-pause {
   &:before {
-    content: $icon-pause;
+    content: icon-vars.$icon-pause;
   }
 }
 .icon-play {
   &:before {
-    content: $icon-play;
+    content: icon-vars.$icon-play;
   }
 }
 .icon-backward-10 {
   &:before {
-    content: $icon-backward_10;
+    content: icon-vars.$icon-backward_10;
   }
 }
 .icon-share {
   &:before {
-    content: $icon-share;
+    content: icon-vars.$icon-share;
   }
 }
 .icon-skip-next {
   &:before {
-    content: $icon-skip_next;
+    content: icon-vars.$icon-skip_next;
   }
 }
 .icon-skip-previous {
   &:before {
-    content: $icon-skip_previous;
+    content: icon-vars.$icon-skip_previous;
   }
 }
 .icon-twitter {
   &:before {
-    content: $icon-twitter;
+    content: icon-vars.$icon-twitter;
   }
 }
 .icon-facebook {
   &:before {
-    content: $icon-facebook;
+    content: icon-vars.$icon-facebook;
   }
 }
 .icon-facebook-f {
   &:before {
-    content: $icon-facebook-f;
+    content: icon-vars.$icon-facebook-f;
   }
 }
 .icon-google-plus {
   &:before {
-    content: $icon-google-plus;
+    content: icon-vars.$icon-google-plus;
   }
 }
 .icon-whatsapp {
   &:before {
-    content: $icon-whatsapp;
+    content: icon-vars.$icon-whatsapp;
   }
 }

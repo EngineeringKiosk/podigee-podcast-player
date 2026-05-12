@@ -1,3 +1,6 @@
+@use 'iconfont';
+@use 'icon-vars';
+
 .panels .share-social-links {
   list-style: none;
   padding: 0;
@@ -48,25 +51,25 @@
 
   .share-link-facebook:before {
     background: rgb(59, 89, 152);
-    content: $icon-facebook;
+    content: icon-vars.$icon-facebook;
     padding: 8px 14px;
   }
 
   .share-link-twitter:before {
     background: rgb(0, 172, 237);
-    content: $icon-twitter;
+    content: icon-vars.$icon-twitter;
     padding: 8px 9px;
   }
 
   .share-link-whatsapp:before {
     background: rgb(67, 216, 84);
-    content: $icon-whatsapp;
+    content: icon-vars.$icon-whatsapp;
     padding: 8px 10px;
   }
 
   .share-link-email:before {
     background: rgb(153, 153, 153);
-    content: $icon-mail-outline;
+    content: icon-vars.$icon-mail-outline;
     padding: 8px 8px;
   }
 }
