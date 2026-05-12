@@ -1,3 +1,4 @@
+@use 'sass:color';
 @import 'variables';
 
 .podcast-player {
@@ -254,7 +255,7 @@
           }
 
           &.active {
-            background-color: lighten($highlight2, 55%);
+            background-color: color.adjust($highlight2, $lightness: 55%);
             color: $background-color;
           }
 
